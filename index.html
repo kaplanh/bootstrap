@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap Example</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous"
+        />
+    <!-- </head> -->
+
+    <body>
+        <div class="container-fluid">
+            <h2 class="text-bg-primary">
+                container-fluid classli bir div icinde h2
+            </h2>
+            <pre>
+                text-bg-danger
+            </pre>
+            <div class="container">
+                <h2 class="text-bg-danger">
+                    container classli bir div icinde h2
+                </h2>
+                <h2 class="text-bg-dark">Tablo</h2>
+                <pre>
+                    table table-striped table-bordered table-hover
+                </pre>
+                <table class="table table-striped table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>zebra-border-hover dark arkaplan rengi verme</h2>
+                <pre>
+          table table-striped table-bordered table-hover table-dark
+        </pre
+                >
+                <table
+                    class="table table-striped table-bordered table-hover table-dark"
+                >
+                    <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>rowlara renk verme</h2>
+                <pre>
+            .table-primary	Blue: Indicates an important action
+            .table-success	Green: Indicates a successful or positive action
+            .table-danger	Red: Indicates a dangerous or potentially negative action
+            .table-info	Light blue: Indicates a neutral informative change or action
+            .table-warning	Orange: Indicates a warning that might need attention
+            .table-active	Grey: Applies the hover color to the table row or table cell
+            .table-secondary	Grey: Indicates a slightly less important action
+            .table-light	Light grey table or table row background
+            .table-dark
+          </pre
+                >
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Default</td>
+                            <td>Defaultson</td>
+                            <td>def@somemail.com</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>Primary</td>
+                            <td>Joe</td>
+                            <td>joe@example.com</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>Success</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>Danger</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>Info</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Warning</td>
+                            <td>Refs</td>
+                            <td>bo@example.com</td>
+                        </tr>
+                        <tr class="table-active">
+                            <td>Active</td>
+                            <td>Activeson</td>
+                            <td>act@example.com</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Secondary</td>
+                            <td>Secondson</td>
+                            <td>sec@example.com</td>
+                        </tr>
+                        <tr class="table-light">
+                            <td>Light</td>
+                            <td>Angie</td>
+                            <td>angie@example.com</td>
+                        </tr>
+                        <tr class="table-dark">
+                            <td>Dark</td>
+                            <td>Bo</td>
+                            <td>bo@example.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>tablonun padding ini daraltma</h2>
+                <pre>
+          .table-sm
+        </pre
+                >
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Default</td>
+                            <td>Defaultson</td>
+                            <td>def@somemail.com</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>Primary</td>
+                            <td>Joe</td>
+                            <td>joe@example.com</td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>Success</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>Danger</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr class="table-info">
+                            <td>Info</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Warning</td>
+                            <td>Refs</td>
+                            <td>bo@example.com</td>
+                        </tr>
+                        <tr class="table-active">
+                            <td>Active</td>
+                            <td>Activeson</td>
+                            <td>act@example.com</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Secondary</td>
+                            <td>Secondson</td>
+                            <td>sec@example.com</td>
+                        </tr>
+                        <tr class="table-light">
+                            <td>Light</td>
+                            <td>Angie</td>
+                            <td>angie@example.com</td>
+                        </tr>
+                        <tr class="table-dark">
+                            <td>Dark</td>
+                            <td>Bo</td>
+                            <td>bo@example.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="table-responsive">
+                    <h2>responsive tablo</h2>
+                    <pre>
+            .table-responsive-sm	< 576px
+            .table-responsive-md	< 768px
+            .table-responsive-lg	< 992px
+            .table-responsive-xl	< 1200px
+            .table-responsive-xxl
+          </pre
+                    >
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Age</th>
+                                <th>City</th>
+                                <th>Country</th>
+                                <th>Sex</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                                <th>Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Anna</td>
+                                <td>Pitt</td>
+                                <td>35</td>
+                                <td>New York</td>
+                                <td>USA</td>
+                                <td>Female</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2>resimler</h2>
+                <pre>
+          rounded-5
+          rounded-circle
+          img-thumbnail
+        </pre
+                >
+                <div class="container mt-3">
+                    <h2>border-radius</h2>
+                    <p>The .rounded class adds rounded corners to an image:</p>
+                    <img
+                        src="https://cdn.pixabay.com/photo/2023/06/16/11/47/books-8067850_1280.jpg"
+                        class="rounded-5"
+                        alt="Cinque Terre"
+                        width="304"
+                        height="236"
+                    />
+                    <img
+                        src="https://cdn.pixabay.com/photo/2023/06/16/11/47/books-8067850_1280.jpg"
+                        class="rounded-circle"
+                        alt="Cinque Terre"
+                        width="304"
+                        height="236"
+                    />
+                    <img
+                        src="https://cdn.pixabay.com/photo/2023/06/16/11/47/books-8067850_1280.jpg"
+                        class="img-thumbnail"
+                        alt="Cinque Terre"
+                        width="304"
+                        height="236"
+                    />
+                </div>
+                <h2>satirdaki konumunu ayarlama</h2>
+                <pre>
+          float-start
+          float-end
+        </pre
+                >
+                <div class="container mt-3">
+                    <h2>Aligning images</h2>
+                    <p>
+                        Use the float classes to float the image to the left or
+                        to the right:
+                    </p>
+                    <img
+                        src="https://cdn.pixabay.com/photo/2023/06/16/11/47/books-8067850_1280.jpg"
+                        class="float-start"
+                        alt="Paris"
+                        width="304"
+                        height="236"
+                    />
+                    <img
+                        src="https://cdn.pixabay.com/photo/2023/06/16/11/47/books-8067850_1280.jpg"
+                        class="float-end"
+                        alt="Paris"
+                        width="304"
+                        height="236"
+                    />
+                </div>
+                <h2>fotoyu ortalama</h2>
+                <pre>
+          mx-auto d-block
+        </pre
+                >
+                <div class="container mt-3">
+                    <h2>Centered Image</h2>
+                    <p>
+                        Center an image by adding the utility classes .mx-auto
+                        (margin:auto) and .d-block (display:block) to the image:
+                    </p>
+                    <img
+                        src="https://cdn.pixabay.com/photo/2023/06/16/11/47/books-8067850_1280.jpg"
+                        class="mx-auto d-block"
+                        style="width: 50%"
+                    />
+                </div>
+                <h2>responsive foto</h2>
+                <pre>
+          img-fluid
+        </pre
+                >
+                <div class="container mt-3">
+                    <h2>Image</h2>
+                    <p>
+                        The .img-fluid class makes the image scale nicely to the
+                        parent element (resize the browser window to see the
+                        effect):
+                    </p>
+                    <img
+                        class="img-fluid"
+                        src="https://cdn.pixabay.com/photo/2023/06/16/11/47/books-8067850_1280.jpg"
+                        alt="New York"
+                        width="1100"
+                        height="500"
+                    />
+                </div>
+                <h2>jumbotron</h2>
+
+                <p>
+                    Bir jumbotron ne için kullanılır? Bir jumbotron, bazı özel
+                    içerik veya bilgilere ekstra dikkat çekmek için büyük bir
+                    kutuyu belirtir.
+                </p>
+                <div class="text-bg-primary p-5 m-4 rounded">
+                    <h1>Jumbotron Example</h1>
+                    <p>Lorem ipsum...</p>
+                </div>
+                <h2>alert</h2>
+                <pre>
+        Uyarılar, .alert sınıfıyla oluşturulur ve ardından
+        .alert-success, .alert-info, .alert-warning, .alert-danger, .alert-primary, .alert-secondary, .alert-light,.alert-dark
+        bağlamsal sınıflarından biri gelir.
+        </pre
+                >
+                <div class="container mt-3">
+                    <h2>Alerts</h2>
+                    <p>
+                        Alerts are created with the .alert class, followed by a
+                        contextual color classes:
+                    </p>
+                    <div class="alert alert-success">
+                        <strong>Success!</strong> This alert box could indicate
+                        a successful or positive action.
+                    </div>
+                    <div class="alert alert-info">
+                        <strong>Info!</strong> This alert box could indicate a
+                        neutral informative change or action.
+                    </div>
+                    <div class="alert alert-warning">
+                        <strong>Warning!</strong> This alert box could indicate
+                        a warning that might need attention.
+                    </div>
+                    <div class="alert alert-danger">
+                        <strong>Danger!</strong> This alert box could indicate a
+                        dangerous or potentially negative action.
+                    </div>
+                    <div class="alert alert-primary">
+                        <strong>Primary!</strong> Indicates an important action.
+                    </div>
+                    <div class="alert alert-secondary">
+                        <strong>Secondary!</strong> Indicates a slightly less
+                        important action.
+                    </div>
+                    <div class="alert alert-dark">
+                        <strong>Dark!</strong> Dark grey alert.
+                    </div>
+                    <div class="alert alert-light">
+                        <strong>Light!</strong> Light grey alert.
+                    </div>
+                </div>
+                <h2>Alert Links</h2>
+                <pre>
+  kapsayici div 'e
+  alert alert-success
+  a tag 'ine
+  alert-link
+</pre
+                >
+                <div class="container mt-3">
+                    <p>
+                        Add the alert-link class to any links inside the alert
+                        box to create "matching colored links".
+                    </p>
+                    <div class="alert alert-success">
+                        <strong>Success!</strong> You should
+                        <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-info">
+                        <strong>Info!</strong> You should
+                        <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-warning">
+                        <strong>Warning!</strong> You should
+                        <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-danger">
+                        <strong>Danger!</strong> You should
+                        <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-primary">
+                        <strong>Primary!</strong> You should
+                        <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-secondary">
+                        <strong>Secondary!</strong> You should
+                        <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-dark">
+                        <strong>Dark!</strong> You should
+                        <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                    <div class="alert alert-light">
+                        <strong>Light!</strong> You should
+                        <a href="#" class="alert-link">read this message</a>.
+                    </div>
+                </div>
+
+                <h2>cikan alert' kapatmak icin x ekleme</h2>
+                <pre>
+  kapsayici div'e 
+  alert alert-success alert-dismissible
+  butona
+  btn-close
+
+</pre
+                >
+                <div class="container mt-3">
+                    <p>
+                        The button with class="btn-close" and
+                        data-bs-dismiss="alert" is used to close the alert box.
+                    </p>
+                    <p>
+                        The alert-dismissible class aligns the button to the
+                        right.
+                    </p>
+                    <div class="alert alert-success alert-dismissible">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Success!</strong> This alert box could indicate
+                        a successful or positive action.
+                    </div>
+                    <div class="alert alert-info alert-dismissible">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Info!</strong> This alert box could indicate a
+                        neutral informative change or action.
+                    </div>
+                    <div class="alert alert-warning alert-dismissible">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Warning!</strong> This alert box could indicate
+                        a warning that might need attention.
+                    </div>
+                    <div class="alert alert-danger alert-dismissible">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Danger!</strong> This alert box could indicate a
+                        dangerous or potentially negative action.
+                    </div>
+                    <div class="alert alert-primary alert-dismissible">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Primary!</strong> Indicates an important action.
+                    </div>
+                    <div class="alert alert-secondary alert-dismissible">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Secondary!</strong> Indicates a slightly less
+                        important action.
+                    </div>
+                    <div class="alert alert-dark alert-dismissible">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Dark!</strong> Dark grey alert.
+                    </div>
+                    <div class="alert alert-light alert-dismissible">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Light!</strong> Light grey alert.
+                    </div>
+                </div>
+                <h2>Animated Alerts kapanirken solma efekti vermek icin</h2>
+                <pre>
+  kapsayici div'e
+  alert alert-success alert-dismissible fade show
+  butona
+  btn-close
+</pre
+                >
+
+                <div class="container mt-3">
+                    <p>
+                        The .fade and .show classes adds a fading effect when
+                        closing the alert message.
+                    </p>
+                    <div
+                        class="alert alert-success alert-dismissible fade show"
+                    >
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Success!</strong> This alert box could indicate
+                        a successful or positive action.
+                    </div>
+                    <div class="alert alert-info alert-dismissible fade show">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Info!</strong> This alert box could indicate a
+                        neutral informative change or action.
+                    </div>
+                    <div
+                        class="alert alert-warning alert-dismissible fade show"
+                    >
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Warning!</strong> This alert box could indicate
+                        a warning that might need attention.
+                    </div>
+                    <div class="alert alert-danger alert-dismissible fade show">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Danger!</strong> This alert box could indicate a
+                        dangerous or potentially negative action.
+                    </div>
+                    <div
+                        class="alert alert-primary alert-dismissible fade show"
+                    >
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Primary!</strong> Indicates an important action.
+                    </div>
+                    <div
+                        class="alert alert-secondary alert-dismissible fade show"
+                    >
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Secondary!</strong> Indicates a slightly less
+                        important action.
+                    </div>
+                    <div class="alert alert-dark alert-dismissible fade show">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Dark!</strong> Dark grey alert.
+                    </div>
+                    <div class="alert alert-light alert-dismissible fade show">
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="alert"
+                        ></button>
+                        <strong>Light!</strong> Light grey alert.
+                    </div>
+                    <h2>butonlar</h2>
+                    <pre>
+                  btn 
+                  btn btn-primary
+                  btn btn-secondary
+                  btn btn-success
+                  btn btn-info
+                  btn btn-warning
+                  btn btn-danger
+                  btn btn-dark
+                  btn btn-light
+                  btn btn-link
+                    </pre>
+                    <div class="container mt-3">
+                        <h2>Button Styles</h2>
+                        <button type="button" class="btn">Basic</button>
+                        <button type="button" class="btn btn-primary">
+                            Primary
+                        </button>
+                        <button type="button" class="btn btn-secondary">
+                            Secondary
+                        </button>
+                        <button type="button" class="btn btn-success">
+                            Success
+                        </button>
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-warning">
+                            Warning
+                        </button>
+                        <button type="button" class="btn btn-danger">
+                            Danger
+                        </button>
+                        <button type="button" class="btn btn-dark">Dark</button>
+                        <button type="button" class="btn btn-light">
+                            Light
+                        </button>
+                        <button type="button" class="btn btn-link">Link</button>
+                    </div>
+                </div>
+                <div class="container mt-4">
+                    <h2>
+                        Düğme sınıfları a, button veya input öğelerinde
+                        kullanılabilir:
+                    </h2>
+                    <pre>
+Bağlantının href niteliğine neden # koyuyoruz?
+Bağlanacak herhangi bir sayfamız olmadığı ve
+404" mesajı almak istemediğimiz için 
+bağlantı olarak # koyuyoruz.
+Gerçek hayatta elbette "Arama" sayfasına 
+giden gerçek bir URL olmalıdır.
+                      
+                      
+                    </pre>
+                    <a href="#" class="btn btn-success">Link Button</a>
+                    <button type="button" class="btn btn-success">
+                        Button
+                    </button>
+                    <input
+                        type="button"
+                        class="btn btn-success"
+                        value="Input Button"
+                    />
+                    <input
+                        type="submit"
+                        class="btn btn-success"
+                        value="Submit Button"
+                    />
+                    <input
+                        type="reset"
+                        class="btn btn-success"
+                        value="Reset Button"
+                    />
+                </div>
+                
+                
+<div class="container mt-3">
+  <h2>Button Outline</h2>
+  <pre>
+     btn btn-outline-primary
+     btn btn-outline-secondary
+     btn btn-outline-success
+     btn btn-outline-info
+     btn btn-outline-warning
+     btn btn-outline-danger
+     btn btn-outline-dark
+     btn btn-outline-light text-dark
+  </pre>
+  <button type="button" class="btn btn-outline-primary">Primary</button>
+  <button type="button" class="btn btn-outline-secondary">Secondary</button>
+  <button type="button" class="btn btn-outline-success">Success</button>
+  <button type="button" class="btn btn-outline-info">Info</button>
+  <button type="button" class="btn btn-outline-warning">Warning</button>
+  <button type="button" class="btn btn-outline-danger">Danger</button>
+  <button type="button" class="btn btn-outline-dark">Dark</button>
+  <button type="button" class="btn btn-outline-light text-dark">Light</button>
+  
+</div>
+<div class="container mt-3">
+  <h2>Button Sizes</h2>
+  <pre>
+    btn btn-primary btn-lg
+    btn btn-primary btn-md
+    btn btn-primary btn-sm
+  </pre>
+  <button type="button" class="btn btn-primary btn-lg">Large</button>
+  <button type="button" class="btn btn-primary btn-md">Default</button>    
+  <button type="button" class="btn btn-primary btn-sm">Small</button>
+</div>
+<div class="container mt-3">
+  <h2>Block Level Buttons</h2>
+  <pre>
+    kapsayici div'e 
+    d-grid
+    button'a
+    btn btn-primary btn-block
+  </pre>
+  <p>To create a block level button that spans the entire width of the parent element, use the .d-grid "helper" class on the parent element:</p>
+  <div class="d-grid">
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  </div>
+</div>
+<div class="container mt-3">
+  <h2>Block Level Buttons-birden fazla butonu block seklinde olsun  ve aralari acik olsun istiyorsak</h2>
+  <p>If you have many block-level buttons, you can control the space between them with the .gap-* class:</p>
+  <pre>
+    kapsayici div'e 
+    d-grid gap-3
+    butonlara
+    btn btn-primary btn-block
+  </pre>
+  <div class="d-grid gap-3">
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+    <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+  </div>
+</div>
+
+<div class="container mt-3">
+  <h2>Button States-Active/Disabled Buttons-Etkin/Devre Dışı Düğmeler</h2>
+  <pre>
+    normal buton:btn btn-primary
+    active buton:btn btn-primary active 
+    disabled buton:btn btn-primary disabled  yada
+    class="btn btn-primary" disabled
+  </pre>
+  <button type="button" class="btn btn-primary">Primary Button</button>
+  <button type="button" class="btn btn-primary active">Active Primary</button>
+  <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+  <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+</div>
+<div class="container mt-3">
+  <h2>Spinner Buttons-dönen butonlar</h2>
+  <p>Add spinners to buttons:</p>
+                                        
+  <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+  </button>
+
+  <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+    Loading..
+  </button>
+  
+  <button class="btn btn-primary" disabled>
+    <span class="spinner-border spinner-border-sm"></span>
+    Loading..
+  </button>
+  
+  <button class="btn btn-primary" disabled>
+    <span class="spinner-grow spinner-grow-sm"></span>
+    Loading..
+  </button>
+</div>
+<div class="container mt-3">
+  <h2>Button Group</h2>
+  <pre>
+    butonlari kapsayan div'e
+    btn-group
+    buton'a 
+    btn btn-primary
+
+  </pre>
+  <p>The .btn-group class creates a button group:</p>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+</div>
+
+
+<div class="container mt-3">
+  <h2>Button Groups Sizes</h2>
+  <pre>
+    Large Buttons:btn-group btn-group-lg
+    Default Buttons:btn-group
+    Small Buttons:btn-group btn-group-sm
+
+  </pre>
+  <p>Add class .btn-group-* to size all buttons in a button group.</p>
+  <h3>Large Buttons:</h3>
+  <div class="btn-group btn-group-lg">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+  <hr>
+  <h3>Default Buttons:</h3>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+  <hr>
+  <h3>Small Buttons:</h3>
+  <div class="btn-group btn-group-sm">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+</div>
+
+<div class="container mt-3">
+  <h2>Vertical Button Group</h2>
+  kapsayici div'e
+  btn-group-vertical
+  <p>Use the .btn-group-vertical class to create a vertical button group:</p>
+  <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+</div>
+<div class="container mt-3">
+  <h2>Button Group</h2>
+  <p>Button groups are "inline" by default, which makes them appear side by side when you have multiple groups:</p>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <button type="button" class="btn btn-primary">Sony</button>
+  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">BMW</button>
+    <button type="button" class="btn btn-primary">Mercedes</button>
+    <button type="button" class="btn btn-primary">Volvo</button>
+  </div>
+</div>
+
+<div class="container mt-3">
+  <h2>Nesting Button Groups-dropdown menus</h2>
+  <pre>
+    en dis div'e 
+    btn-group
+    altinda iki butona
+    btn btn-primary
+    btn btn-primary
+
+    icdeki div'e
+    btn-group
+    icindeki butona
+    btn btn-primary dropdown-toggle ve data-bs-toggle="dropdown"
+    butonla ayni düzeyde ul acip ulnin clasina
+    dropdown-menu
+    li lerin icindeki a larin claslarinada
+    dropdown-item
+
+  </pre>
+  <p>Nest button groups to create dropdown menus:</p>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple</button>
+    <button type="button" class="btn btn-primary">Samsung</button>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Tablet</a></li>
+        <li><a class="dropdown-item" href="#">Smartphone</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container mt-3">
+  <h2>Badges -Rozetler, herhangi bir içeriğe ek bilgi eklemek için kullanılır:</h2>
+
+  <pre>
+    h1 icinde span'in class'ina "badge bg-secondary" 
+    büyük ve kücüklügünü h1-h6 ile belirleyebiliriz
+    background'unuda bg-danger ile
+  </pre>
+  <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+  <h2>Example heading <span class="badge bg-danger">New</span></h2>
+  <h3>Example heading <span class="badge bg-info">New</span></h3>
+  <h4>Example heading <span class="badge bg-warning">New</span></h4>
+  <h5>Example heading <span class="badge bg-success">New</span></h5>
+  <h6>Example heading <span class="badge bg-secondary">New</span></h6>
+  <h1>Made in <span class="badge bg-danger">Hüseyin</span></h1>
+</div>
+
+<div class="container mt-3">
+  <h2>Pill Badges</h2>
+  <pre>
+    Rozetleri daha yuvarlak hale getirmek için .rounded-pill sınıfını kullanın asagidaki gibi
+    badge rounded-pill bg-primary
+  </pre>
+  <span class="badge rounded-pill bg-primary">Primary</span>
+  <span class="badge rounded-pill bg-secondary">Secondary</span>
+  <span class="badge rounded-pill bg-success">Success</span>
+  <span class="badge rounded-pill bg-danger">Danger</span>
+  <span class="badge rounded-pill bg-warning">Warning</span>
+  <span class="badge rounded-pill bg-info">Info</span>
+  <span class="badge rounded-pill bg-light">Light</span>
+  <span class="badge rounded-pill bg-dark">Dark</span>
+  <span class="badge bg-success rounded-pill">Made in Hüseyin</span>
+</div>
+<div class="container mt-3">
+  <h2>Badge inside a Button</h2>
+<pre>
+    buton'a:btn btn-primary
+    icindeki span'a:badge bg-danger
+</pre>
+
+  <button type="button" class="btn btn-primary">
+    Messages <span class="badge bg-danger">4</span>
+  </button>
+  <button type="button" class="btn btn-danger">
+    Notifications <span class="badge bg-dark">7</span>
+  </button>
+  <button class="btn btn-primary" type="button"> Made in <span class="badge bg-warning"> hüseyin</span> </button>
+</div>
+<div class="container mt-3">
+  <h2>Basic Progress Bar-Temel İlerleme Çubuğu</h2>
+  <p>Bir kullanıcının bir süreçte ne kadar ilerlediğini göstermek için bir ilerleme çubuğu kullanılabilir.</p>
+  <p>To create a default progress bar, add a .progress class to a container element and add the progress-bar class to its child element. Use the CSS width property to set the width of the progress bar:</p>
+  <pre>
+    Varsayılan ilerleme çubuğu oluşturmak için kapsayıcı öğeye bir .progress sınıfı ekleyin ve alt öğesine .progress-bar sınıfını  ekleyin. İlerleme çubuğunun genişliğini ayarlamak için CSS width özelliğini kullanın:
+  </pre>
+ <div class="container mt-3">
+  <h2>Progress Bar Height</h2>
+  <p>The height of the progress bar is 1rem (16px) by default. Use the CSS height property to change the height:</p> 
+  <div class="progress" style="height:10px">
+    <div class="progress-bar" style="width:40%;"> 40%</div>
+  </div>
+  <br>
+  <div class="progress" style="height:20px">
+    <div class="progress-bar" style="width:50%;"> 50%</div>
+  </div>
+  <br>
+  <div class="progress" style="height:30px">
+    <div class="progress-bar" style="width:60%;"> 70%</div>
+  </div>
+</div>
+<div class="container mt-3">
+  <h2>Colored Progress Bars</h2>
+  <p>Use any of the contextual color classes to change the color of the progress bar:</p> 
+  <!-- Blue -->
+  <div class="progress">
+    <div class="progress-bar" style="width:10%"></div>
+  </div><br>
+
+  <!-- Green -->
+  <div class="progress">
+    <div class="progress-bar bg-success" style="width:20%"></div>
+  </div><br>
+
+  <!-- Turquoise -->
+  <div class="progress">
+    <div class="progress-bar bg-info" style="width:30%"></div>
+  </div><br>
+
+  <!-- Orange -->
+  <div class="progress">
+     <div class="progress-bar bg-warning" style="width:40%"></div>
+  </div><br>
+
+  <!-- Red -->
+  <div class="progress">
+    <div class="progress-bar bg-danger" style="width:50%"></div>
+  </div><br>
+
+  <!-- White -->
+  <div class="progress border">
+    <div class="progress-bar bg-white" style="width:60%"></div>
+  </div><br>
+
+  <!-- Grey -->
+  <div class="progress">
+    <div class="progress-bar bg-secondary" style="width:70%"></div>
+  </div><br>
+
+  <!-- Light Grey -->
+  <div class="progress border">
+    <div class="progress-bar bg-light" style="width:80%"></div>
+  </div><br>
+
+  <!-- Dark Grey -->
+  <div class="progress">
+    <div class="progress-bar bg-dark" style="width:90%">80%</div>
+  </div>
+  <br>
+  <div class="progress border" style="height:30px">
+    <div class="progress-bar " style='width:50%'>made in hüseyin 50%</div>
+  </div>
+</div>
+<div class="container mt-3">
+  <h2>Striped Progress Bars</h2>
+  <pre>
+    İlerleme çubuklarına şeritler eklemek için .progress-bar-striped sınıfını kullanın:
+  </pre>
+  <p>The .progress-bar-striped class adds stripes to the progress bars:</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped" style="width:30%"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar bg-success progress-bar-striped" style="width:40%"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar bg-info progress-bar-striped" style="width:50%"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar bg-warning progress-bar-striped" style="width:60%"></div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar bg-danger progress-bar-striped" style="width:70%"></div>
+  </div>
+</div>
+<div class="container mt-3">
+  <h2>Animated Progress Bar</h2>
+  <pre>
+    İlerleme çubuğunu canlandırmak için .progress-bar-animated sınıfını ekleyin:
+  </pre>
+  <p>Add the .progress-bar-animated class to animate the progress bar:</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+  </div>
+  <br>
+  <div class="progress border" style="height:20px">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width:70%">made in hsyn
+
+    </div>
+  </div>
+</div>
+<div class="container mt-3">
+  <h2>Multiple Progress Bars</h2>
+  <pre>
+    yan yana birkac İlerleme çubugu konulabilir
+  </pre>
+  <p>Create a stacked progress bar by placing multiple bars into the same div with class="progress":</p> 
+  <div class="progress">
+    <div class="progress-bar bg-success" style="width:40%">
+      Free Space
+    </div>
+    <div class="progress-bar bg-warning" style="width:10%">
+      Warning
+    </div>
+    <div class="progress-bar bg-danger" style="width:20%">
+      Danger
+    </div>
+  </div>
+</div>
+<div class="container mt-3">
+  <h2>Spinners</h2>
+  <pre>
+    Döndürücü/yükleyici oluşturmak için .spinner-border sınıfını kullanın:
+  </pre>
+  <p>To create a spinner/loader, use the <code>.spinner-border</code> class:</p>
+                                        
+  <div class="spinner-border"></div>
+</div>
+<div class="container mt-3">
+  <h2>Colored Spinners</h2>
+  <p>Use any <strong>text color utilites</strong> to add a color to the spinner:</p>
+                                        
+  <div class="spinner-border text-muted"></div>
+  <div class="spinner-border text-primary"></div>
+  <div class="spinner-border text-success"></div>
+  <div class="spinner-border text-info"></div>
+  <div class="spinner-border text-warning"></div>
+  <div class="spinner-border text-danger"></div>
+  <div class="spinner-border text-secondary"></div>
+  <div class="spinner-border text-dark"></div>
+  <div class="spinner-border text-light"></div>
+</div>
+<div class="container mt-3">
+  <h2>Growing Spinners</h2>
+  <p>Use the <code>.spinner-grow</code> class if you want the spinner/loader to grow instead of "spin":</p>
+                                        
+  <div class="spinner-grow text-muted"></div>
+  <div class="spinner-grow text-primary"></div>
+  <div class="spinner-grow text-success"></div>
+  <div class="spinner-grow text-info"></div>
+  <div class="spinner-grow text-warning"></div>
+  <div class="spinner-grow text-danger"></div>
+  <div class="spinner-grow text-secondary"></div>
+  <div class="spinner-grow text-dark"></div>
+  <div class="spinner-grow text-light"></div>
+</div>
+<div class="container mt-3">
+  <h2>Spinner Size</h2>
+  <p>Use <code>.spinner-border-sm</code> or <code>.spinner-grow-sm</code> to create a smaller spinner:</p>
+                                        
+  <div class="spinner-border spinner-border-sm"></div>
+  <div class="spinner-border spinner-border-lg"></div>
+  <div class="spinner-grow spinner-grow-sm"></div>
+  <div class="spinner-grow spinner-grow-md"></div>
+</div>
+<div class="container mt-3">
+  <h2>Spinner Buttons</h2>
+  <p>Add spinners to buttons:</p>
+                                        
+  <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+  </button>
+
+  <button class="btn btn-primary">
+    <span class="spinner-border spinner-border-sm"></span>
+    Loading..
+  </button>
+  
+  <button class="btn btn-primary" disabled>
+    <span class="spinner-border spinner-border-sm"></span>
+    Loading..
+  </button>
+  
+  <button class="btn btn-primary" disabled>
+    <span class="spinner-grow spinner-grow-sm"></span>
+    Loading..
+  </button>
+</div>
+
+
+
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
